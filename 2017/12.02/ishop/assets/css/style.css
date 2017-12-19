@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+.productsBlock {
+    margin: auto;
+    width: 80vw;
+}
+.productsBlock>div:nth-of-type(1) {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.productsBlock span {
+    display: inline-block;
+}
+.row {
+    border-bottom: solid 1px;
+    width: 100%;
+}
+.name {
+    width: 40%;
+}
+.price,
+.url {
+    width: 20%;
+}
