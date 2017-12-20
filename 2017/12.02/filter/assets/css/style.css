@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+.hidden {
+    display: none;
+}
+.filter {
+    margin: auto;
+    width: 50vw;
+}
+.inputsBlock {
+    height: 30px;
+}
+.stringsBlock {
+    height: 200px;
+    overflow-x: hidden;
+    width: 100%;
+}
+.row {
+    border-bottom: solid 1px;
+    font-size: 25px;
+    line-height: 30px;
+}
+.row span {
+    display: block;
+    height: 30px;
+}
