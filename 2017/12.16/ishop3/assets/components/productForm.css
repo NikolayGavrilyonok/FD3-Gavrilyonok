@@ -1,0 +1,38 @@
+.productForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+.formAddButton,
+.saveButton,
+.discardButton {
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    width: 75px;
+}
+.productInfo {
+    width: 300px;
+}
+.formLines{
+    width: 120px;
+}
+.formLineAdd,
+.formLine {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+}
+input[type="button"] {
+    cursor: pointer;
+}
+#errorName,
+#errorPrice,
+#errorUrl,
+#errorRemaining {
+    background-color: coral;
+}
+#marked {
+    background-color: lightgreen;
+}

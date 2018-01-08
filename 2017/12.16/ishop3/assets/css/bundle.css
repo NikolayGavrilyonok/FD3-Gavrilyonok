@@ -1,0 +1,113 @@
+.productRow .name {
+    cursor: pointer;
+}
+.name {
+    padding-left: 10px;
+    width: 270px;
+}
+.price {
+    width: 50px;
+}
+.href {
+    width: 50px;
+}
+.remaining {
+    width: 80px;
+}
+.row {
+    margin: 5px 0;
+    width: 100%;
+}
+.editButton,
+.deleteButton {
+    width: 60px;
+}
+.name,
+.price,
+.href,
+.remaining {
+    display: inline-block;
+}.tableHeader {
+    background-color: lightgray;
+}
+input[type="button"],
+.tableHeader {
+    font-weight: bold;
+}
+input[type="button"] {
+    cursor: pointer;
+}
+.name {
+    padding-left: 10px;
+    width: 270px;
+}
+.price {
+    width: 50px;
+}
+.href {
+    width: 50px;
+}
+.remaining {
+    width: 80px;
+}
+.row {
+    margin: 5px 0;
+    width: 100%;
+}
+.addButton {
+    width: 120px;
+}
+.editButton,
+.deleteButton {
+    width: 60px;
+}
+.addButton,
+.editButton,
+.deleteButton,
+.name,
+.price,
+.href,
+.remaining {
+    display: inline-block;
+}.productForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+.formAddButton,
+.saveButton,
+.discardButton {
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    width: 75px;
+}
+.productInfo {
+    width: 300px;
+}
+.formLines{
+    width: 120px;
+}
+.formLineAdd,
+.formLine {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+}
+input[type="button"] {
+    cursor: pointer;
+}
+#errorName,
+#errorPrice,
+#errorUrl,
+#errorRemaining {
+    background-color: coral;
+}
+#marked {
+    background-color: lightgreen;
+}.container {
+    margin: auto;
+    width: 590px;
+}
+/*# sourceMappingURL=bundle.css.map*/

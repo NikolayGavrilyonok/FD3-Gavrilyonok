@@ -1,0 +1,30 @@
+.productRow .name {
+    cursor: pointer;
+}
+.name {
+    padding-left: 10px;
+    width: 270px;
+}
+.price {
+    width: 50px;
+}
+.href {
+    width: 50px;
+}
+.remaining {
+    width: 80px;
+}
+.row {
+    margin: 5px 0;
+    width: 100%;
+}
+.editButton,
+.deleteButton {
+    width: 60px;
+}
+.name,
+.price,
+.href,
+.remaining {
+    display: inline-block;
+}
