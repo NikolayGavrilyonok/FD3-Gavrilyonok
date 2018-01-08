@@ -1,0 +1,87 @@
+.container {
+    margin: auto;
+    width: 590px;
+}
+.tableHeader {
+    background-color: lightgray;
+}
+input[type="button"],
+.tableHeader {
+    font-weight: bold;
+}
+.name {
+    padding-left: 10px;
+    width: 270px;
+}
+.price {
+    width: 50px;
+}
+.href {
+    width: 50px;
+}
+.remaining {
+    width: 80px;
+}
+.row {
+    margin: 5px 0;
+    width: 100%;
+}
+.addButton {
+    width: 120px;
+}
+.editButton,
+.deleteButton {
+    width: 60px;
+}
+.addButton,
+.editButton,
+.deleteButton,
+.name,
+.price,
+.href,
+.remaining,
+.formLine,
+.formAddButton,
+.saveButton,
+.discardButton {
+    display: inline-block;
+}
+input[type="button"],
+.productRow .name,
+.productInfo+span:nth-of-type(1) {
+    cursor: pointer;
+}
+.productInfo {
+    width: 300px;
+}
+.productForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+.formLines{
+    width: 120px;
+}
+.formLineAdd,
+.formLine {
+    box-sizing: border-box;
+    line-height: 25px;
+    height: 25px;
+    width: 100%;
+}
+.formAddButton,
+.saveButton,
+.discardButton {
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    width: 75px;
+}
+#errorName,
+#errorPrice,
+#errorUrl,
+#errorRemaining {
+    background-color: coral;
+}
+#marked {
+    background-color: lightgreen;
+}
